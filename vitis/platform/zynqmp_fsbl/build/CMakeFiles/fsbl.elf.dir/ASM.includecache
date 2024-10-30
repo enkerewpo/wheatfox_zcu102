@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wheatfox/vivado/vitis/platform/zynqmp_fsbl/xfsbl_exit.S
+
+/home/wheatfox/vivado/vitis/platform/zynqmp_fsbl/xfsbl_translation_table_a53_64.S
+xparameters.h
+/home/wheatfox/vivado/vitis/platform/zynqmp_fsbl/xparameters.h
+xparameters.h
+/home/wheatfox/vivado/vitis/platform/zynqmp_fsbl/xparameters.h
+

@@ -1,0 +1,2 @@
+aarch64-none-elf-ar qc libbram.a CMakeFiles/bram.dir/xbram.c.obj CMakeFiles/bram.dir/xbram_g.c.obj CMakeFiles/bram.dir/xbram_intr.c.obj CMakeFiles/bram.dir/xbram_selftest.c.obj CMakeFiles/bram.dir/xbram_sinit.c.obj
+/tools/Xilinx/Vitis/2024.1/gnu/aarch64/lin/aarch64-none/bin/aarch64-none-elf-ranlib libbram.a

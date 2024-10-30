@@ -27,7 +27,14 @@ int main()
     init_platform();
 
     print("Hello World\n\r");
-    print("Successfully ran Hello World application");
+    print("Successfully ran Hello World application\n\r");
+
+    while(1) {
+        print("this is a UART print from wheatfox on zcu102's PS system\n\r");
+        // sleep for a while
+        for (int i = 0; i < 100000000; i++);
+    }
+
     cleanup_platform();
     return 0;
 }
